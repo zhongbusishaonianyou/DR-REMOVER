@@ -8,7 +8,7 @@
 
 The code is tested successfully at
 
-- Linux 20.04 LTS
+- ubuntu 20.04
 - ROS noetic
 - python 3.8
 ## Requirements
