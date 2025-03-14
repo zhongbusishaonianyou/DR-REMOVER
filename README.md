@@ -210,6 +210,12 @@ python analysis_py3.py
 ```bash
 roslaunch remover viz_map.launch
 ```
+
+![Figure6](https://github.com/user-attachments/assets/74fd128e-9e95-4bf5-a865-88a851d40186)
+
+![Figure7](https://github.com/user-attachments/assets/d23f6bec-4c06-42d0-922c-af789a7c7155)
+
+
 ## About source code
 
 - Due to the sparsity of the point cloud, `L_max` should not be set too large. `min_h `and `max_h` need to be adjusted according to the environment. Generally speaking, min_h = -1m and max_h = 3m are completely acceptable.You can adjust the values of parameters such as `N_x` and `N_y` to better understand the code.
