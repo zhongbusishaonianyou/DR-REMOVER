@@ -2,7 +2,8 @@
 - TITILE: An Efficient Dynamic Object Remover Using Dual-Resolution Occupancy Grids for Constructing Static Point Cloud Maps
 - Description:DR-REMOVER is an offline dynamic point removal method, which removes dynamic points more accurately, avoids more false removal of static points (including ground points), and achieves better results on KITTI and Apollo datasets.
 - Limits: Limited by the selected height interval, it is more suitable for wide road scenes.
-![Figure1](https://github.com/user-attachments/assets/674b293a-b28d-46f6-af3b-2113f52fbe43)
+
+![overview](https://github.com/user-attachments/assets/674b293a-b28d-46f6-af3b-2113f52fbe43)
 
 
 ## Test Environment.
