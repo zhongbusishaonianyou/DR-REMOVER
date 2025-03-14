@@ -81,6 +81,7 @@ DYNAMIC_CLASSES = {252, 253, 254, 255, 256, 257, 258, 259};
     - Semantic labels are the same as SemanticKITTI datasets.These labels were manually annotated by Xieyuanli Chen et al.
     - Paper: "Static map generation from 3D LiDAR point clouds exploiting ground segmentation"
     - DYNAMIC_CLASSES = {252, 253, 254, 255, 256, 257, 258, 259};
+      
   - SemanticPOSS dataset
 ```
 # 04: "person"
