@@ -100,7 +100,7 @@ DYNAMIC_CLASSES = {252, 253, 254, 255, 256, 257, 258, 259};
 
 DYNAMIC_CLASSES = {4,5,6};
 ```
-    - NOTE：The semanticPOSS dataset does not label the motion state of the object, so it is only used for qualitative evaluation experiments.
+  NOTE：The semanticPOSS dataset does not label the motion state of the object, so it is only used for qualitative evaluation experiments.
 
 ## How to Run DR-REMOVER
 
