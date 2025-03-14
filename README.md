@@ -97,6 +97,7 @@ DYNAMIC_CLASSES = {252, 253, 254, 255, 256, 257, 258, 259};
 # 17: "fence"
 # 21: "bike"
 # 22: "road"
+
 DYNAMIC_CLASSES = {4,5,6};
 ```
 
