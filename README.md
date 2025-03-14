@@ -3,7 +3,6 @@
 - Description:DR-REMOVER is an offline dynamic point removal method, which removes dynamic points more accurately, avoids more false removal of static points (including ground points), and achieves better results on KITTI and Apollo datasets.
 - Limits: Limited by the selected height interval, it is more suitable for wide road scenes.
 
----
 
 ## Test Environment.
 
@@ -23,7 +22,8 @@ The code is tested successfully at
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/src
 git clone https://github.com/zhongbusishaonianyou/DR-REMOVER.git
-cd .. && catkin make 
+cd ..
+catkin_make 
 ```
 ## Prepared dataset
 
