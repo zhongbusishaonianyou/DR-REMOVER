@@ -61,7 +61,7 @@ wget https://urserver.kaist.ac.kr/publicdata/erasor/rosbag/07_630_to_820_w_inter
 
 ## Description of Preprocessed Rosbag Files
 
-- Note that each label of the point is assigned in `intensity`. After point cloud drop sampling, there are a few points with inaccurate labels in the map.
+- Note that each label of the point is assigned in `intensity`.After point cloud drop sampling, there are a few points with inaccurate labels in the map.The semanticPOSS dataset does not label the motion state of the object, so it is only used for qualitative evaluation experiments.
 
 - SemanticKITTI dataset
 ```
@@ -99,7 +99,6 @@ DYNAMIC_CLASSES = {252, 253, 254, 255, 256, 257, 258, 259};
 # 22: "road"
 DYNAMIC_CLASSES = {4,5,6};
 ```
-        - NOTE：The semanticPOSS dataset does not label the motion state of the object, so it is only used for qualitative evaluation experiments.
 
 ## How to Run DR-REMOVER
 
