@@ -32,7 +32,8 @@ catkin_make
 - You can download the rosbag we created directly.
   
 - Apollo dataset(seq 00,seq 01,seq 02,seq 03,seq 04)
-   - we downloaded apollo dataset from here: https://github.com/PRBonn/MapMOS.Please read dataset_description.yml(The file is in the compressed package after download) if you download Apollo dataset from above link.
+   - we downloaded apollo dataset from here: https://github.com/PRBonn/MapMOS.
+   - Please read dataset_description.yml(The file is in the compressed package after download) if you download Apollo dataset from above link.
    - Paper: "L3-net: Towards learning based lidar localization for autonomous driving"
    ```bash
    - rawseq: start-id - end-id -> LiDAR-MOS-seq: start-id - end-id   
