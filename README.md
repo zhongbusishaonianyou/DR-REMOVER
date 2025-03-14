@@ -22,7 +22,7 @@ The code is tested successfully at
 ```bash
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/src
-git clone https://github.com/LimHyungTae/ERASOR.git
+git clone https://github.com/zhongbusishaonianyou/DR-REMOVER.git
 cd .. && catkin make 
 ```
 ## Prepared dataset
