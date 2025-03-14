@@ -63,7 +63,7 @@ wget https://urserver.kaist.ac.kr/publicdata/erasor/rosbag/07_630_to_820_w_inter
 
 - Note that each label of the point is assigned in `intensity`. After point cloud drop sampling, there are a few points with inaccurate labels in the map.
 
-   - SemanticKITTI dataset
+- SemanticKITTI dataset
 ```
 # 252: "moving-car"
 # 253: "moving-bicyclist"
