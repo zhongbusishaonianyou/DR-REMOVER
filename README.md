@@ -1,5 +1,5 @@
 # DR-REMOVER (IEEE Transactions on Intelligent Vehicles 2024)
-- TITILE: An Efficient Dynamic Object Remover Using Dual-Resolution Occupancy Grids for Constructing Static Point Cloud Maps
+- Title: An Efficient Dynamic Object Remover Using Dual-Resolution Occupancy Grids for Constructing Static Point Cloud Maps
 - Description:DR-REMOVER is an offline dynamic point removal method, which removes dynamic points more accurately, avoids more false removal of static points (including ground points), and achieves better results on KITTI and Apollo datasets.
 - Limits: Limited by the selected height interval, it is more suitable for wide road scenes.
 
@@ -80,8 +80,8 @@ DYNAMIC_CLASSES = {252, 253, 254, 255, 256, 257, 258, 259};
     - Semantic labels are the same as SemanticKITTI datasets.These labels were manually annotated by Xieyuanli Chen et al.
     - Paper: "Static map generation from 3D LiDAR point clouds exploiting ground segmentation"
     - DYNAMIC_CLASSES = {252, 253, 254, 255, 256, 257, 258, 259};
-      
-  - SemanticPOSS dataset
+
+- SemanticPOSS dataset
 ```
 # 04: "person"
 # 05: "persons"
@@ -97,10 +97,9 @@ DYNAMIC_CLASSES = {252, 253, 254, 255, 256, 257, 258, 259};
 # 17: "fence"
 # 21: "bike"
 # 22: "road"
-
 DYNAMIC_CLASSES = {4,5,6};
 ```
-  NOTE：The semanticPOSS dataset does not label the motion state of the object, so it is only used for qualitative evaluation experiments.
+        - NOTE：The semanticPOSS dataset does not label the motion state of the object, so it is only used for qualitative evaluation experiments.
 
 ## How to Run DR-REMOVER
 
