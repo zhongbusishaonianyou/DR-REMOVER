@@ -10,13 +10,13 @@
 
 The code is tested successfully at
 
-- ubuntu 20.04
+- Ubuntu 20.04
 - ROS noetic
-- python 3.8
+- Python 3.8
 ## Requirements
 
-- pcl >=1.7
-- python >=3.0
+- PCL >=1.7
+- Python >=3.0
 - Eigen 
 ## Build Our Package
 
@@ -43,7 +43,7 @@ catkin_make
   - 3: 3100  - 3600  -> 03: 000000 - 000500
   - 4: 1500  - 3100  -> 04: 000000 - 000600
    ```
-- semanticPOSS dataset(seq 00,seq 01,seq 02,seq 04,seq 05)
+- SemanticPOSS dataset(seq 00,seq 01,seq 02,seq 04,seq 05)
 
   - Paper:"SemanticPOSS: A Point Cloud Dataset with Large Quantity of Dynamic Instances"
   - dataset description: The data is collected in a highly congested environment, and the point cloud data contains a large number of dynamic pedestrians.
@@ -135,7 +135,7 @@ rostopic pub /saveflag std_msgs/Float32 "data: 0.2"
 
 ## Calculate PR/RR
 
-- The experimental results of DR-REMOVER are in the "results" folder.
+- You can download DR-REMOVER results from here: https://drive.google.com/drive/my-drive?dmr=1&ec=wgc-drive-globalnav-goto
 - We directly use the code of ERASOR. To run the Python code, you need to install the following packages:
 
 ```bash
