@@ -1,0 +1,11 @@
+<launch>
+
+<node name="visualize_map" pkg="remover" type="visualize_map" output="screen">
+    <rosparam param="/static_map_name">"/home/zgy/ROS/DR_REMOVER/src/DR-REMOVER-master/DR-REMOVER-master/results/Apollo/apollo_04_result.pcd"</rosparam>
+    <rosparam param="/dynamic_map_name">"/home/zgy/ROS/DR_REMOVER/src/DR-REMOVER-master/DR-REMOVER-master/results/Apollo/apollo_04_dynamic.pcd"</rosparam>
+	
+</node>
+
+<node name="rviz" pkg="rviz" type="rviz" args="-d $(find remover)/rviz/visualize_map.rviz"/>
+
+</launch>

@@ -1,0 +1,35 @@
+remover: 
+    # parameters of ROI(Region of Interest)
+    L_max: 60.0
+    min_h: -1.0 
+    max_h: 2.5    
+    # parameters of Group-based and Cell-based Zoning Model
+    N_y: 60  
+    N_x: 30
+    N_c: 240
+    # parameters of Group-based Region Detection(OHR,FOD,AOR) 
+    minimum_num_pts: 10
+    Thres: 5
+    Kappa: 2   
+    # parameters of ground fitting
+    gf_dist_thr: 0.05
+    gf_iter_times: 3
+    gf_mini_num_points: 10
+    gf_seeds_heigt_thr: 0.2
+
+MapUpdater:
+    dataset_name: "apollo"
+    sequence_name: "01"
+    initial_map_path: "/home/zgy/ROS/DR_REMOVER/src/DR-REMOVER-master/DR-REMOVER-master/MAP/Apollo/01_700_to_950_w_interval1_voxel_0.200000.pcd"
+    save_path: "/home/zgy/ROS/DR_REMOVER/src/DR-REMOVER-master/DR-REMOVER-master/results/Apollo/"
+    query_voxel_size: 0.2
+    map_voxel_size: 0.2  
+    
+    removal_interval: 1
+
+tf:
+     tf_lidar2body: [1.0, 0.0, 0.0, 0.0,
+                     0.0, 1.0, 0.0, 0.0,
+                     0.0, 0.0, 1.0, 1.64,
+                     0.0, 0.0, 0.0, 1.0]
+
